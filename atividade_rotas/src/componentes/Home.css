@@ -1,0 +1,54 @@
+
+.banner{
+    background-image: url("./banner.png");
+    height: 824px;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    opacity:50% ;
+}
+.textbanner{
+    font-size: 1.4em;
+    color: #000000;
+    font-weight: bolder;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+}
+  
+  .Cards{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+  }
+.card{
+    background-color: rgba(202, 202, 202, 0.147);
+    padding: 10px;
+    margin: 90px 2%;
+    width: 20rem;
+    display: flex;
+    align-items: center;
+}
+  
+  .card img{
+    
+    width: 74%;
+  }
+
+  .qualidade{
+    padding: 40px;
+    display: flex;
+    justify-items: center;
+
+}
+
+.text1{
+    margin: auto;
+    text-align: center;
+    font-size: 1.3em;
+    width: 570px;
+}
+.qualidade img{
+    width: 49%;
+}

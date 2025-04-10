@@ -1,0 +1,37 @@
+body{
+    height: 100%;
+    width: 100vw;
+}
+
+.inicio,.barra,.torta,.bolo{
+    padding: 50px 120px;
+
+    display: flex;
+    justify-items: center;
+}
+
+.inicio img{
+    width: 34%;
+}
+
+.sabores h1{
+ color: orangered; 
+   
+}
+
+.barra>div,.torta>div,.bolo>div{
+    font-size: 1.23em;
+    width: 50%;
+}
+.barra{
+    background-color: antiquewhite;
+}
+.torta{
+    background-color: rgb(251, 212, 162);
+}
+.bolo{
+    background-color: rgb(202, 178, 149);
+}
+li{
+    list-style: none;
+}
